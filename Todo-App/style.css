@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.butttoon {
+    background-color: #e85d3a;
+    height: 21px;
+    width: 21px;
+    margin-left: -31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+
+.chat-container {
+    border: 11px solid black;
+    height: 470px;
+    padding: 15px;
+    border-radius: 45px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.chat-box {
+    padding: 10px;
+    height: 600px;
+    overflow-y: auto;
+    margin-bottom: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.chat-box::-webkit-scrollbar {
+    display: none;
+}
+
+.input-button-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#message-input {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    width: 245px;
+    margin-left: -3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.li-style {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    list-style: none;
+    padding: 7px;
+    width: 230px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: -43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    white-space: normal
+}
+
+.li-text {
+    flex: 1;
+    margin-right: 10px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.li-style button {
+    background-color: #ff7e5f;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    flex-shrink: 0;
+    width: auto;
+    text-align: center;
+}
+
+.li-style button:hover {
+    background-color: #feb47b;
+}
+
+.main-heading {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.edit-button {
+    background-color: green;
+}
